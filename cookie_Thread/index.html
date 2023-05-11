@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-   
-    <link rel="shortcut icon" href="/site pica/assets/cookie.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/cookie.png" type="image/x-icon">
     <title>Cookie Clicker</title>
 </head>
 <body>
     <header class="cabecalho">
         <div class="cabecalho-conteudo">
             <div class="cabecalho-titulo">
-            <img src="/site pica/assets/cookie.png" alt="" class="logo">
+            <img src="/assets/cookie.png" alt="" class="logo">
             <h1>Cookie Clicker Remake</h1></div>
             <ul class="cabecalho-links">
                 <li><a href="" class="a-links">Home</a></li>
@@ -28,19 +27,22 @@
     <main class="principal-content">
         <section class="cookie-display">
             <p class="cookie" id="cookies-displayer">Cookies:</p>
-            <img src="/site pica/assets/click-cookie.png" alt="" id="cookie-button" class="cookie-click">
+            <img src="/assets/click-cookie.png" alt="" id="cookie-button" class="cookie-click">
         </section>
         <section class="cookie-store">
-            <ul class="store">
+            <ul id="store"class="store">
                 <h1 class="titulo-store">Loja</h1>
-                <li class="products" id="product1">Ganhe mais um cookie por click</li>
+                <li class="products" id="upgrade1">Ganhe mais um cookie por click</li>
                 <li class="products">Ganhe mais um cookie por segundo</li>
             </ul>
         </section>
     </main>
-    <footer></footer>
 
-    <script src="/site pica/script.js"></script>
+    <footer class="">
+        
+    </footer>
+
+    <script type="module" src="./Scripts/main.js"></script>
     
 </body>
 </html>

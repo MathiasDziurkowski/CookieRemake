@@ -84,6 +84,14 @@
 {
     cursor: pointer;
 }
+.cookie-store
+{
+    border: 5px solid #3E78B2;
+    padding: 10px;
+    /* background-color: #; */
+    border-radius: 20px;
+    box-shadow: 5px 5px #284D73;
+}
 
 .store
 {
@@ -105,12 +113,14 @@
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #3E78B2;
     padding: 10px;
+    transition: .25s ease;
     border-radius: 20px;
 }
 
 .products:hover
 {
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 
