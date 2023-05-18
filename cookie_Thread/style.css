@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+
+}
+
 .cabecalho
 {
     background-color: #3E78B2;
@@ -121,6 +125,78 @@
 {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.rodape{
+    background-color: black;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.texto-rodape{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-brands{
+    color: white;
+    transition: .2s ease;
+}
+.fa-brands:hover{
+    color: #FFBF00;
+}
+
+@media (max-width:768px){
+    .cabecalho{
+        padding: 5px;
+    }
+
+    .logo{
+        width: 32px;
+    }
+
+    .cabecalho-titulo{
+        gap: 10px
+    }
+    .cabecalho-titulo h1{
+        font-size: 20px;
+    }
+    .cabecalho-links{
+        gap: 10px;
+        font-size: 15px;
+    }
+
+    .principal-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cookie-click{
+        width: 250px;
+    }
+
+    .titulo-store{
+        font-size: 20px;
+    }
+
+    .products{
+        font-size: 12px;
+    }
+}
+
+@media (min-height: 600px) {
+
+    .rodape{
+        min-height: 50px;
+    }
+
+    .principal-content{
+        min-height: 650px;
+    }
+    
 }
 
 
